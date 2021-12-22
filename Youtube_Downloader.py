@@ -1,5 +1,5 @@
 '''
-This program, downloads YouTube videos in the desired format (MP3 by default)
+This program, downloads YouTube videos in the desired format
 
 Install Pre-Requisits:
 
@@ -30,6 +30,16 @@ list_of_youtube_vids = [
 'https://www.youtube.com/watch?v=XqZsoesa55w'
 ]
 
-for vid in list_of_youtube_vids:
-	downloader(vid)
 
+n = len(list_of_youtube_vids)
+counter = 1
+for vid in list_of_youtube_vids:
+	print("************* Downloading {0}/{1} *************".format(counter, n))
+	try:
+		downloader(vid)
+		counter += 1
+	except:
+		count -= 1
+		continue
+
+	
