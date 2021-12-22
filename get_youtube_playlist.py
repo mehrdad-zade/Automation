@@ -1,4 +1,6 @@
 '''
+credit/source: https://www.geeksforgeeks.org/python-program-to-download-complete-youtube-playlist/
+
 pre-req:
 sudo pip3 install BeautifulSoup4
 sudo pip3 install PyQt5
