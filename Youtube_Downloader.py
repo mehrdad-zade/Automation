@@ -1,5 +1,5 @@
 '''
-This program, downloads YouTube videos in the desired format
+This program, downloads YouTube videos in the desired format (MP3 by default)
 
 Install Pre-Requisits:
 
